@@ -6,13 +6,13 @@ Personal portfolio website for **Norah Masoud Aloqayli**, Product Discovery & Us
 
 ## Live Site
 
-After GitHub Pages is enabled, the site will be at:
+**https://643ztt.csb.app/**
 
-**https://saja12344.github.io/Awthiqni/**
+(منشور على CodeSandbox — يعمل مباشرة بدون إعداد إضافي)
 
-If the link above does not work yet, enable Pages once here:
-https://github.com/Saja12344/Awthiqni/settings/pages
-(Choose branch: `gh-pages`, folder: `/ (root)`, then Save)
+### رابط GitHub Pages (بعد التفعيل اليدوي)
+
+https://saja12344.github.io/Awthiqni/
 
 ## Features
 
