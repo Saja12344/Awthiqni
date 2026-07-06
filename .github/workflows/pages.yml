@@ -9,7 +9,6 @@ permissions:
   contents: write
   pages: write
   id-token: write
-  administration: write
 
 jobs:
   enable-pages:
@@ -25,18 +24,14 @@ jobs:
               core.info('GitHub Pages already enabled');
             } catch (error) {
               if (error.status !== 404) throw error;
-              core.info('Enabling GitHub Pages...');
-              try {
-                await github.rest.repos.createPagesSite({
-                  owner,
-                  repo,
-                  build_type: 'legacy',
-                  source: { branch: 'gh-pages', path: '/' }
-                });
-                core.info('Pages enabled with legacy gh-pages source');
-              } catch (createError) {
-                core.warning(`Could not enable pages: ${createError.message}`);
-              }
+              core.info('Enabling GitHub Pages from gh-pages branch...');
+              await github.rest.repos.createPagesSite({
+                owner,
+                repo,
+                build_type: 'legacy',
+                source: { branch: 'gh-pages', path: '/' }
+              });
+              core.info('GitHub Pages enabled');
             }
 
   deploy:
@@ -57,7 +52,7 @@ jobs:
     needs: deploy
     runs-on: ubuntu-latest
     steps:
-      - name: Check Pages URL
+      - name: Print live URL
         uses: actions/github-script@v7
         with:
           script: |
@@ -66,5 +61,5 @@ jobs:
               const { data } = await github.rest.repos.getPages({ owner, repo });
               core.notice(`Live site: ${data.html_url}`);
             } catch (error) {
-              core.warning('Pages not active yet. Enable manually in repo Settings > Pages > gh-pages branch.');
+              core.warning('Enable Pages manually: Settings > Pages > gh-pages / (root)');
             }
