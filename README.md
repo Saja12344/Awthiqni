@@ -6,7 +6,13 @@ Personal portfolio website for **Norah Masoud Aloqayli**, Product Discovery & Us
 
 ## Live Site
 
-**https://cdn.jsdelivr.net/gh/Saja12344/Awthiqni@gh-pages/**
+After GitHub Pages is enabled, the site will be at:
+
+**https://saja12344.github.io/Awthiqni/**
+
+If the link above does not work yet, enable Pages once here:
+https://github.com/Saja12344/Awthiqni/settings/pages
+(Choose branch: `gh-pages`, folder: `/ (root)`, then Save)
 
 ## Features
 
