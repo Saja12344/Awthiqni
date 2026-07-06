@@ -6,7 +6,7 @@ Personal portfolio website for **Norah Masoud Aloqayli**, Product Discovery & Us
 
 ## Live Site
 
-**https://vtxqfg.csb.app/**
+**https://374qzt.csb.app/**
 
 (منشور على CodeSandbox — يعمل مباشرة بدون إعداد إضافي)
 
