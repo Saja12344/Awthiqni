@@ -4,6 +4,10 @@
 
 Personal portfolio website for **Norah Masoud Aloqayli**, Product Discovery & User Research specialist.
 
+## Live Site
+
+**https://cdn.jsdelivr.net/gh/Saja12344/Awthiqni@gh-pages/**
+
 ## Features
 
 - LinkedIn-inspired header with custom logo and "Behind Every Insight" banner
