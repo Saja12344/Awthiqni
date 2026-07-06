@@ -79,7 +79,7 @@
   }, observerOptions);
 
   document.querySelectorAll(
-    '.exp-card, .project-card, .skill-tag, .hero-content, .hero-visual, .skills-intro'
+    '.exp-card, .project-card, .skill-tag, .hero-content, .skills-intro'
   ).forEach(el => {
     el.classList.add('fade-in');
     observer.observe(el);
