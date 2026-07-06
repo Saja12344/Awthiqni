@@ -1,18 +1,22 @@
 /* ===== Variables ===== */
 :root {
-  --bg-primary: #ffffff;
-  --bg-secondary: #f7f7fb;
+  --bg-primary: #ececf3;
+  --bg-secondary: #e3e3ec;
+  --bg-content: #ffffff;
   --bg-card: #ffffff;
-  --bg-card-hover: #f5f3ff;
-  --text-primary: #1a1a2e;
-  --text-secondary: #4a4a68;
-  --text-muted: #7a7a95;
-  --accent-purple: #a855f7;
-  --accent-pink: #ec4899;
-  --accent-magenta: #d946ef;
-  --gradient-main: linear-gradient(135deg, #a855f7 0%, #d946ef 50%, #ec4899 100%);
-  --gradient-glow: radial-gradient(ellipse at center, rgba(168, 85, 247, 0.08) 0%, transparent 70%);
-  --border-subtle: rgba(168, 85, 247, 0.12);
+  --bg-card-hover: #f7f4ff;
+  --text-primary: #2d2d3a;
+  --text-secondary: #5c5c72;
+  --text-muted: #8b8ba3;
+  --accent-purple: #8b5cf6;
+  --accent-purple-dark: #6d28d9;
+  --accent-pink: #d946ef;
+  --accent-magenta: #c026d3;
+  --gradient-main: linear-gradient(135deg, #8b5cf6 0%, #a855f7 50%, #d946ef 100%);
+  --gradient-banner: linear-gradient(135deg, #5b21b6 0%, #7c3aed 45%, #a855f7 100%);
+  --gradient-glow: radial-gradient(ellipse at center, rgba(139, 92, 246, 0.12) 0%, transparent 70%);
+  --border-subtle: rgba(109, 40, 217, 0.12);
+  --shadow-soft: 0 8px 30px rgba(76, 29, 149, 0.08);
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-script: 'Playfair Display', Georgia, serif;
   --nav-height: 64px;
@@ -39,6 +43,10 @@ body {
   line-height: 1.6;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
+}
+
+main {
+  background: var(--bg-primary);
 }
 
 a {
@@ -90,6 +98,29 @@ img {
 .nav-logo img {
   width: 36px;
   height: 36px;
+  object-fit: contain;
+}
+
+.avatar-logo,
+.skills-center-logo img {
+  object-fit: contain;
+}
+
+.contact-social a {
+  color: var(--text-muted);
+  transition: color var(--transition);
+}
+
+.contact-social a:hover {
+  color: var(--accent-purple);
+}
+
+.linkedin-header {
+  padding: 0 24px;
+}
+
+.hero {
+  margin: 24px 24px 0;
 }
 
 .nav-links {
@@ -136,7 +167,7 @@ img {
 .banner {
   position: relative;
   height: var(--banner-height);
-  background: #000;
+  background: var(--gradient-banner);
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -186,13 +217,16 @@ img {
 
 .profile-section {
   position: relative;
-  background: #ffffff;
+  background: var(--bg-content);
   padding: 0 32px 40px;
   max-width: 1100px;
   margin: 0 auto;
   display: flex;
   align-items: flex-end;
   gap: 28px;
+  border: 1px solid var(--border-subtle);
+  border-top: none;
+  box-shadow: var(--shadow-soft);
 }
 
 .profile-avatar {
@@ -216,7 +250,7 @@ img {
   height: 100%;
   border-radius: 50%;
   background: #fff;
-  padding: 18px;
+  padding: 0;
   object-fit: contain;
 }
 
@@ -269,7 +303,12 @@ img {
 .hero {
   position: relative;
   padding: 48px 0 80px;
-  background: #ffffff;
+  background: var(--bg-content);
+  margin: 24px auto 0;
+  max-width: 1100px;
+  border-radius: 16px;
+  border: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-soft);
 }
 
 .hero-content-wrap {
@@ -362,7 +401,7 @@ img {
 /* ===== Experience ===== */
 .experience {
   padding: 80px 0;
-  background: var(--bg-secondary);
+  background: var(--bg-primary);
 }
 
 .section-title {
@@ -441,7 +480,9 @@ img {
 .skills {
   padding: 80px 0 100px;
   text-align: center;
-  background: #ffffff;
+  background: var(--bg-content);
+  border-top: 1px solid var(--border-subtle);
+  border-bottom: 1px solid var(--border-subtle);
 }
 
 .skills-intro {
@@ -556,7 +597,7 @@ img {
 /* ===== Projects ===== */
 .projects {
   padding: 80px 0 100px;
-  background: var(--bg-secondary);
+  background: var(--bg-primary);
 }
 
 .project-card {
@@ -565,6 +606,11 @@ img {
   gap: 48px;
   align-items: center;
   margin-bottom: 100px;
+  padding: 32px;
+  background: var(--bg-content);
+  border-radius: 20px;
+  border: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-soft);
 }
 
 .project-card:last-child {
@@ -628,9 +674,9 @@ img {
   z-index: 1;
   margin: 0;
   border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
-  background: #fff;
+  overflow: visible;
+  background: #ffffff;
+  padding: 12px;
 }
 
 .project-visual picture,
@@ -638,6 +684,8 @@ img {
   width: 100%;
   height: auto;
   display: block;
+  object-fit: contain;
+  object-position: center;
 }
 
 /* Mockups */
@@ -646,11 +694,7 @@ img {
 }
 
 .mockup-glow {
-  position: absolute;
-  inset: -20px;
-  background: var(--gradient-glow);
-  border-radius: 20px;
-  z-index: 0;
+  display: none;
 }
 
 .mockup-screen {
@@ -831,7 +875,7 @@ img {
 .contact {
   padding: 80px 0 40px;
   border-top: 1px solid var(--border-subtle);
-  background: #ffffff;
+  background: var(--bg-content);
 }
 
 .contact-container {

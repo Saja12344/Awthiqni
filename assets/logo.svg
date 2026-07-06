@@ -1,10 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <rect width="200" height="200" fill="#ffffff"/>
   <defs>
-    <linearGradient id="logoGrad" x1="60" y1="15" x2="60" y2="95" gradientUnits="userSpaceOnUse">
+    <linearGradient id="noonGrad" x1="100" y1="35" x2="100" y2="150" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#B591FF"/>
       <stop offset="100%" stop-color="#FF9EAA"/>
     </linearGradient>
   </defs>
-  <path d="M34 78 C34 48, 52 38, 60 38 C68 38, 86 48, 86 78" stroke="url(#logoGrad)" stroke-width="12" stroke-linecap="round" fill="none"/>
-  <circle cx="60" cy="26" r="8" fill="url(#logoGrad)"/>
+  <path d="M58 128 C58 86, 78 72, 100 72 C122 72, 142 86, 142 128" stroke="url(#noonGrad)" stroke-width="18" stroke-linecap="round" fill="none"/>
+  <path d="M58 128 C58 100, 68 88, 78 86" stroke="url(#noonGrad)" stroke-width="18" stroke-linecap="round" fill="none"/>
+  <line x1="142" y1="72" x2="142" y2="128" stroke="url(#noonGrad)" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="100" cy="52" r="11" fill="url(#noonGrad)"/>
 </svg>
