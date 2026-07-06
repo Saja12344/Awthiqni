@@ -2,7 +2,7 @@
 
 ## افتحي الموقع من هنا:
 
-# https://374qzt.csb.app/
+# https://csw2ss.csb.app/
 
 ---
 
