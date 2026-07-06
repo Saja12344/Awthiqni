@@ -1,13 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
-  <rect width="200" height="200" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" fill="#ffffff"/>
   <defs>
-    <linearGradient id="noonGrad" x1="100" y1="35" x2="100" y2="150" gradientUnits="userSpaceOnUse">
+    <linearGradient id="noonGrad" x1="256" y1="96" x2="256" y2="360" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#B591FF"/>
-      <stop offset="100%" stop-color="#FF9EAA"/>
+      <stop offset="45%" stop-color="#C9A0FF"/>
+      <stop offset="100%" stop-color="#FFB5A8"/>
     </linearGradient>
   </defs>
-  <path d="M58 128 C58 86, 78 72, 100 72 C122 72, 142 86, 142 128" stroke="url(#noonGrad)" stroke-width="18" stroke-linecap="round" fill="none"/>
-  <path d="M58 128 C58 100, 68 88, 78 86" stroke="url(#noonGrad)" stroke-width="18" stroke-linecap="round" fill="none"/>
-  <line x1="142" y1="72" x2="142" y2="128" stroke="url(#noonGrad)" stroke-width="18" stroke-linecap="round"/>
-  <circle cx="100" cy="52" r="11" fill="url(#noonGrad)"/>
+  <path d="M148 332 C148 228, 196 176, 256 176 C316 176, 364 228, 364 332" stroke="url(#noonGrad)" stroke-width="40" stroke-linecap="round" fill="none"/>
+  <path d="M148 332 C148 262, 168 214, 204 196" stroke="url(#noonGrad)" stroke-width="40" stroke-linecap="round" fill="none"/>
+  <line x1="364" y1="176" x2="364" y2="332" stroke="url(#noonGrad)" stroke-width="40" stroke-linecap="round"/>
+  <circle cx="256" cy="112" r="26" fill="url(#noonGrad)"/>
 </svg>
