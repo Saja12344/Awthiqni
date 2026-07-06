@@ -2,7 +2,7 @@
 
 ## افتحي الموقع من هنا:
 
-# https://csw2ss.csb.app/
+# https://pntxmd.csb.app/
 
 ---
 
