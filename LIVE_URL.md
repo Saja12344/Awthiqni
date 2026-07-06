@@ -1,17 +1,16 @@
-# رابط الموقع المباشر
+# رابط الموقع المباشر | Live URL
 
 ## افتحي الموقع من هنا:
 
-# https://3tmnlp.csb.app/
+# https://saja12344.github.io/portfolio-norah/
 
 ---
 
-هذا الرابط يعمل مباشرة على الجوال والكمبيوتر بدون أي إعداد.
+## تفعيل الموقع (مرة واحدة فقط)
 
-## رابط بديل:
-https://643ztt.csb.app/
+1. أنشئي الريبو: https://github.com/new → الاسم: `portfolio-norah`
+2. فعّلي GitHub Pages: https://github.com/Saja12344/portfolio-norah/settings/pages
+3. Branch: `gh-pages` → Folder: `/ (root)` → Save
+4. انتظري 1–2 دقيقة ثم افتحي الرابط أعلاه
 
-## GitHub Pages (اختياري — يحتاج تفعيل يدوي):
-1. https://github.com/Saja12344/Awthiqni/settings/pages
-2. Branch: `gh-pages` → Folder: `/ (root)` → Save
-3. https://saja12344.github.io/Awthiqni/
+راجع `SETUP_NEW_REPO.md` لتفاصيل رفع الكود.
