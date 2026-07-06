@@ -1,4 +1,6 @@
-# Norah Masoud Aloqayli — Portfolio
+# برتفوليو نوره | Norah Masoud Aloqayli Portfolio
+
+موقع بورتفوليو شخصي لـ **نوره ماسود العقيلي** — متخصصة في Product Discovery و User Research.
 
 Personal portfolio website for **Norah Masoud Aloqayli**, Product Discovery & User Research specialist.
 
