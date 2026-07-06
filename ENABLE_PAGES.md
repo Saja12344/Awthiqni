@@ -1,11 +1,11 @@
 # تفعيل الموقع | Enable the Live Site
 
-الموقع في ريبو **portfolio-norah** — يحتاج تفعيل GitHub Pages **مرة واحدة فقط**.
+الموقع في ريبو **norh-protifolio** — يحتاج تفعيل GitHub Pages **مرة واحدة فقط**.
 
 ## الخطوات (دقيقة واحدة)
 
 1. افتحي هذا الرابط:
-   **https://github.com/Saja12344/portfolio-norah/settings/pages**
+   **https://github.com/Saja12344/norh-protifolio/settings/pages**
 
 2. تحت **Build and deployment** > **Source**:
    - اختاري **Deploy from a branch**
@@ -16,7 +16,7 @@
    - اضغطي **Save**
 
 4. انتظري 1–2 دقيقة، ثم افتحي:
-   **https://saja12344.github.io/portfolio-norah/**
+   **https://saja12344.github.io/norh-protifolio/**
 
 ---
 

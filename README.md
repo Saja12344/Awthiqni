@@ -1,4 +1,4 @@
-# portfolio-norah
+# norh-protifolio
 
 موقع بورتفوليو شخصي لـ **نوره ماسoud العقيلي** — متخصصة في Product Discovery و User Research.
 
@@ -6,7 +6,7 @@ Personal portfolio website for **Norah Masoud Aloqayli**, Product Discovery & Us
 
 ## Live Site
 
-**https://saja12344.github.io/portfolio-norah/**
+**https://saja12344.github.io/norh-protifolio/**
 
 (بعد تفعيل GitHub Pages — راجع `ENABLE_PAGES.md`)
 
@@ -52,3 +52,4 @@ npx serve .
 
 - Behance: https://www.behance.net/norahaloqayli
 - Email: norah.masoud@hotmail.com
+- Repository: https://github.com/Saja12344/norh-protifolio
