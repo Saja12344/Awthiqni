@@ -679,11 +679,11 @@ img {
   background: #fff;
 }
 
+.project-visual picture,
 .project-visual img {
   width: 100%;
   height: auto;
   display: block;
-  object-fit: cover;
 }
 
 /* Mockups */
