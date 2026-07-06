@@ -2,7 +2,7 @@
 
 ## افتحي الموقع من هنا:
 
-# https://pntxmd.csb.app/
+# https://3tmnlp.csb.app/
 
 ---
 
