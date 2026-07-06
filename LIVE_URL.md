@@ -2,7 +2,7 @@
 
 ## افتحي الموقع من هنا:
 
-# https://mwz242.csb.app/
+# https://vtxqfg.csb.app/
 
 ---
 
